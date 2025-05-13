@@ -1,0 +1,13 @@
+train: C:\Users\j4vdo\PycharmProjects\Moon_Detection_Yolo\yolov12_materials\train\images
+val: C:\Users\j4vdo\PycharmProjects\Moon_Detection_Yolo\yolov12_materials\valid\images
+test: C:\Users\j4vdo\PycharmProjects\Moon_Detection_Yolo\yolov12_materials\test\images
+
+nc: 2
+names: ['crater', 'rock']
+
+roboflow:
+  workspace: sdsu-mechatronics
+  project: my-first-project-ert6j
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sdsu-mechatronics/my-first-project-ert6j/dataset/4
