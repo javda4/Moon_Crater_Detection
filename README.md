@@ -64,6 +64,8 @@ yolo task=detect mode=predict model=yolov12s.pt source=path/to/images_or_video i
 
 ### Layout
 
+Ultralytics1 is ultralytics just a localized version to account for github distribution chokepoints
+
 To perform performing Yolov5 actions you must be in the yolov5 folder as it contains all the scripts and call to its scrpits needed to perform training, validation, and inference
 
 For Yolov8 and Yolov12 with the pip installation of ultralytics and the ultralytics folder you have all the materials needed to use CLI to perform yolo tasks (training, validation, inference)
@@ -75,4 +77,4 @@ Pretrained weights will automatically download to your device and be used for tr
 yolov5_best.pt, yolov8_best.pt, and yolov12_best.pt were our custom made moon crater detection pytorch models
 
 Outputs of yolov5 tasks can be found in yolov5/runs/... depedning the tasks
-Outputs of yolov8 and yolov12 tasks can be found in ultralytics/runs/... depedning the tasks
+Outputs of yolov8 and yolov12 tasks can be found in ultralytics1/runs/... depedning the tasks
