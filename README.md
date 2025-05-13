@@ -1,15 +1,14 @@
 # Moon_Crater_Detection
 ## YOLOv5, YOLOv8, and YOLOv12 Usage Guide
 
-This repository provides instructions on how to use YOLOv5, YOLOv8, and YOLOv12 for object detection tasks, including training, validation, and inference. YOLOv12 follows the same usage pattern as YOLOv8, with the only difference being that model and task calls are directed to `v12` instead of `v8`.
+This repository provides instructions on how to use YOLOv5, YOLOv8, and YOLOv12 for object detection tasks, including training, validation, and inference.
 
 ### Table of Contents
 - [Installation](#installation)
 - [Training](#training)
 - [Validation](#validation)
 - [Inference](#inference)
-- [Custom Datasets](#custom-datasets)
-- [Model Variants](#model-variants)
+
 
 ---
 
@@ -63,3 +62,16 @@ yolo task=detect mode=predict model=yolov8s.pt source=path/to/images_or_video im
 yolo task=detect mode=predict model=yolov12s.pt source=path/to/images_or_video imgsz=640
 ```
 
+### Layout
+
+To perform performing Yolov5 actions you must be in the yolov5 folder as it contains all the scripts and call to its scrpits needed to perform training, validation, and inference
+
+For Yolov8 and Yolov12 with the pip installation of ultralytics and the ultralytics folder you have all the materials needed to use CLI to perform yolo tasks (training, validation, inference)
+
+The folders yolov5_materials, yolov8_materials, and yolov12_materials contain the diversified (70-20-10 / training-validation-testing) image datasets and the data.yaml that stores the classes
+
+Pretrained weights will automatically download to your device and be used for training if using a pretrained model to train a new model
+
+yolov5_best.pt, yolov8_best.pt, and yolov12_best.pt were our custom made moon crater detection pytorch models
+
+ 
