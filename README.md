@@ -74,4 +74,5 @@ Pretrained weights will automatically download to your device and be used for tr
 
 yolov5_best.pt, yolov8_best.pt, and yolov12_best.pt were our custom made moon crater detection pytorch models
 
- 
+Outputs of yolov5 tasks can be found in yolov5/runs/... depedning the tasks
+Outputs of yolov8 and yolov12 tasks can be found in ultralytics/runs/... depedning the tasks
